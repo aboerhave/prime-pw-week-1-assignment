@@ -12,6 +12,13 @@
 h1{
   text-align: center;
 }
+ .image1{
+   margin-top: 10px;
+   display: block;
+   margin-left:auto;
+   margin-right: auto;
+   width:auto;
+ }
 
 .main-footer{
   padding: 10px;
