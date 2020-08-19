@@ -14,11 +14,13 @@ h1{
 }
  .image1{
    margin-top: 10px;
+   border: 7px black;
+   border-style: solid;
    display: block;
    margin-left:auto;
    margin-right: auto;
    width:auto;
-   border: 7px white;
+
  }
 
 .main-footer{
