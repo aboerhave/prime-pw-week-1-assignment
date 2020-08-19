@@ -4,6 +4,7 @@
 }
 /* Make the header and footer a different color from the background */
 .site-header{
+  font-size: 24px;
   background-color: #F08080;
   margin: 0;
   padding: 10px 10%;
@@ -21,8 +22,30 @@ h1{
    margin-right: auto;
    width: 237px;
    height: 315px;
-
  }
+ /*.coaster-images{
+   display:block;
+   justify-content: center;
+   padding: 5px 20px;
+ }*/
+.image-column{
+  float:left;
+  width: 50%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-row{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-row::after{
+    content "";
+    clear: both;
+    display: table;
+}
+
 h4{
   padding-left: 15px;
 }
@@ -37,6 +60,11 @@ h4{
 }
 /* Align the h1 containing your name in the center of the header*/
 
+.sunset{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Make your p tag a different color and italic */
 p{
   color:#cff;
