@@ -1,5 +1,7 @@
 /* Give your page a fun background color */
-
+.main-section{
+  background-color: #5dbcd2;
+}
 /* Make the header and footer a different color from the background */
 
 /* Align the h1 containing your name in the center of the header*/
