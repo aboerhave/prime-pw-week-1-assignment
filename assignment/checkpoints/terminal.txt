@@ -1,3 +1,7 @@
+Assignment 1 created by Adam Boerhave during week 1 of Prime Digital Academy,
+8/17-23/2020
+I put single quotes for where I would insert another name of a location or file.
+
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
@@ -6,7 +10,7 @@ ls
 
 # 2 - What is the command for changing directories?
 
-cd "directory I want to change to"
+cd 'directory I want to change to'
 
 # 3 - What is the command for going back a folder (to a parent directory)?
 
@@ -14,15 +18,18 @@ cd ..
 
 # 4 - What is a quick way to create a new folder?
 
-mkdir "name I want to give new folder"
+mkdir 'name I want to give new folder'
 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
 
-There should be no text displayed, as there are no contents to list in the terminal.
+For the first scenario, there should be no text displayed, as there are no contents to list in the terminal.
+For the second, the terminal should display the contents of the current folder in a list, but only
+at the next level down.  If there is another folder with files there, its contents will not be
+displayed until the current directory is changed and ls is run again.
 
 # 6 - What is a quick way to create a new file?
 
-touch "file name I want to create"
+touch 'file name I want to create'
 
 # 7 - Run 'git --version' in your terminal. What is the output
 
@@ -37,6 +44,9 @@ the reply in the terminal will show which files have had modifications made to t
 it is known if another commit is needed to keep those changes in Git.
 
 # 9 - What does the command 'git add .' do?
+
+The command 'git add .' adds the changes to all files in the current directory that Git is tracking to the staging area so that these
+changes can be committed and saved to Git to retrieve if needed later.
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
 
