@@ -2,20 +2,25 @@
 .main-section{
   background-color: #5dbcd2;
 }
+
 /* Make the header and footer a different color from the background */
+/* Style for header*/
 .site-header{
-  font-size: 24px;
   background-color: #F08080;
-  margin: 0;
   padding: 10px 10%;
 }
 
+/* Align the h1 containing your name in the center of the header*/
+/* Style for h1 wtih name */
 h1{
+  font-size: 40px;
   text-align: center;
 }
 
+/* Put a border around your image */
+/* position and border for head image */
  .image1{
-   margin-top: 10px;
+   margin-top: 15px;
    border: 7px black;
    border-style: solid;
    display: block;
@@ -25,13 +30,24 @@ h1{
    height: 315px;
  }
 
- .image-row{
-   display: flex;
-   padding: 15px;
+/* Change the font-family of your list */
+ .outer-list{
+   font-family: fantasy;
  }
 
- .image-column{
+ /* move h4 text before list indented */
+ h4{
+   padding-left: 15px;
+ }
 
+/* style for position of container images side by side */
+ .image-row{
+   display: flex;
+   padding-top: 15px;
+ }
+
+/* style for position of individual images side by side */
+ .image-column{
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -40,25 +56,21 @@ h1{
   text-align: center;
 }
 
+/* style to move text below image to center */
  .image-row p{
    text-align:center;
  }
 
-h4{
-  padding-left: 15px;
-}
-
- .outer-list{
-   font-family: fantasy;
- }
-
+/* Make the header and footer a different color from the background */
+/* footer style and size*/
 .main-footer{
   padding: 10px;
   background-color: #F08080;
   text-align: center;
 }
-/* Align the h1 containing your name in the center of the header*/
 
+/* Put a border around your image */
+/* position and border for sunset picture */
 .sunset{
   display: block;
   margin-left: auto;
@@ -67,10 +79,8 @@ h4{
   border-style: solid;
   margin-top: 10px;
 }
+
 /* Make your p tag a different color and italic */
 .main-footer p{
   color:#cff;
 }
-/* Put a border around your image */
-
-/* Change the font-family of your list */
