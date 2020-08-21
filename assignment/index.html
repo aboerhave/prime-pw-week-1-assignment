@@ -1,56 +1,74 @@
+<!-- Assignment 1 created by Adak Boerhave during week 1 of Prime Digital Academy,
+8/17-23/2020 -->
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <!-- Change the <title> from "Page Title" to "Hello World" -->
     <title>Hello World!</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Links to css stylesheet files and javascript file -->
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script type="text/javascript" src="helloWorld.js"></script>
 </head>
+
 <body class="main-section">
     <!-- Create a header with an <h1> containing your name -->
     <header class="site-header">
 
       <h1>Adam Boerhave</h1>
     </header>
+
     <!-- Include an image -->
     <img src="adam.jpg" class="image1" alt="Adam Boerhave"/>
 
     <!-- Create an unordered list with 3 list items of fun facts about you -->
     <h4>Some Fun Things About Me:</h4>
-    <ul class="outer-list">
+    <ul class="outer-list"> <!-- outer list -->
+
       <li>
         I am a Parrothead, or big Jimmy Buffett fan.  I listen to Radio Margaritaville
         almost every day and have been to three of Jimmy's concerts:
-        <ul>
+        <ul>  <!-- inner list -->
           <li>Wrigley Field, Chicago, IL: July 15, 2017</li>
           <li>Target Field with The Eagles, Minneapolis, MN: June 30, 2018</li>
           <li>Alpine Valley, Elkhorn, WI: July 20, 2019</li>
-        </ul>
+        </ul> <!-- end inner list -->
       </li>
       <li>
         Some of my favorite Jimmy Buffett songs:
-        <ul>
+        <ul>  <!-- inner list -->
           <li>Breathe In, Breathe Out, Move On</li>
           <li>The Captain and the Kid</li>
           <li>The Night I Painted the Sky</li>
           <li>When the Coast is Clear</li>
-        </ul>
+        </ul> <!-- end inner list -->
       </li>
       <li>
-        I love rollercoasters. I have worked at some of them including Wild Thing at Valleyfair,
+        I love rollercoasters. I have worked at some of them including Wild Thing at Valleyfair, in Minnesota,
         and Primeval Whirl at Disney's Animal Kingdom in Florida.  My favorite is Steel Vengeance at
         Cedar Point in Ohio.
+
         <br><!-- Line break to move the picture to the line below the text -->
-        <div class="image-row">
-          <div class="image-column">
+
+        <div class="image-row"> <!-- outside container to hold images side by side -->
+          <div class="image-column">  <!-- inner container to hold individual images -->
             <img src="wild_thing.jpg" width="378" height:"252" alt="Wild Thing"/>
+            <p>
+              Wild Thing, Valleyfair, Shakopee, MN
+            </p>
           </div>
           <div class="image-column">
             <img src="steel_vengeance.jpg" width="252" height="378" alt="Steel Vengeance"/>
+            <p>
+              Steel Vengeance, Cedar Point, Sandusky, OH
+            </p>
           </div>
         </div>
 
@@ -58,12 +76,13 @@
       <li>
         My family has a cabin on Lake Alexander in Cushing, MN.  It has been my
         favorite place to spend time this summer.
+
         <br><!-- Line break is empty to move the picture to the line below the text -->
 
-        <!-- <img src="cabin sunset.jpg" class="sunset" width="137" height="183" alt="Lake Alexander"/> -->
         <img src="cabin sunset.jpg" class="sunset" width="25%" alt="Lake Alexander"/>
       </li>
-    </ul>
+    </ul>  <!-- end outer list -->
+
     <!-- Create a footer -->
     <!-- Inside your footer, put a <p> with your favorite quote -->
     <footer class="main-footer">

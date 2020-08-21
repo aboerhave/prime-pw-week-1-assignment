@@ -13,6 +13,7 @@
 h1{
   text-align: center;
 }
+
  .image1{
    margin-top: 10px;
    border: 7px black;
@@ -24,35 +25,29 @@ h1{
    height: 315px;
  }
 
-.image-column{
-  float:left;
+ .image-row{
+   display: flex;
+   padding: 15px;
+ }
+
+ .image-column{
+
   margin-left: auto;
   margin-right: auto;
   display: block;
   margin-top:auto;
   margin-bottom: auto;
-}
-.image-row{
-  display: flex;
+  text-align: center;
 }
 
+ .image-row p{
+   text-align:center;
+ }
 
-.coaster-image1{
-  display:block;
-
-  padding: 5px 20px;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.coaster-image2{
-  display:block;
-  padding: 5px 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
 h4{
   padding-left: 15px;
 }
+
  .outer-list{
    font-family: fantasy;
  }
@@ -68,9 +63,12 @@ h4{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 7px #cc9199;
+  border-style: solid;
+  margin-top: 10px;
 }
 /* Make your p tag a different color and italic */
-p{
+.main-footer p{
   color:#cff;
 }
 /* Put a border around your image */
