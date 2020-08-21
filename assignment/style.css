@@ -23,29 +23,33 @@ h1{
    width: 237px;
    height: 315px;
  }
- /*.coaster-images{
-   display:block;
-   justify-content: center;
-   padding: 5px 20px;
- }*/
+
 .image-column{
   float:left;
-  width: 50%;
-  padding: 5px;
   margin-left: auto;
   margin-right: auto;
+  display: block;
+  margin-top:auto;
+  margin-bottom: auto;
 }
 .image-row{
   display: flex;
+}
+
+
+.coaster-image1{
+  display:block;
+
+  padding: 5px 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.coaster-image2{
+  display:block;
+  padding: 5px 20px;
   margin-left: auto;
   margin-right: auto;
 }
-.image-row::after{
-    content "";
-    clear: both;
-    display: table;
-}
-
 h4{
   padding-left: 15px;
 }

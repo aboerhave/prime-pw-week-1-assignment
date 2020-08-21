@@ -30,7 +30,11 @@ git version 2.28.0
 
 # 8 - Why would you run the command 'git status'?
 
-
+The command 'git status' displays a result that lets the user know if there have been any modifications to
+the files that git tracks since the last commit was made.  If the file that is saved is identical to the file
+that git has a copy of, the terminal will show that everything is up to date.  If changes have been made to any file,
+the reply in the terminal will show which files have had modifications made to them since the last commit so that
+it is known if another commit is needed to keep those changes in Git.
 
 # 9 - What does the command 'git add .' do?
 
