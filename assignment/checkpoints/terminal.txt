@@ -29,7 +29,7 @@ displayed until the current directory is changed and ls is run again.
 
 # 6 - What is a quick way to create a new file?
 
-touch 'file name I want to create'
+touch 'file name I want to create. file type'
 
 # 7 - Run 'git --version' in your terminal. What is the output
 
