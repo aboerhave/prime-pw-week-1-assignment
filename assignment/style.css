@@ -24,8 +24,7 @@ h1{
 /* position and border for head image */
  .image1{
    margin-top: 15px;
-   border: 7px black;
-   border-style: solid;
+   border: 7px black solid;
    display: block;
    margin-left:auto;
    margin-right: auto;
@@ -38,15 +37,15 @@ h1{
    font-family: fantasy;
  }
 
- /* move h4 text before list indented */
+ /* move h2 text before list indented */
  h2{
-   padding-left: 15px;
+   margin-left: 15px;
  }
 
 /* style for position of container images side by side */
  .image-row{
    display: flex;
-   padding-top: 15px;
+   margin-top: 15px;
  }
 
 /* style for position of individual images side by side */
@@ -78,12 +77,11 @@ h1{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 7px #cc9199;
-  border-style: solid;
+  border: 7px #cc9199 solid;
   margin-top: 10px;
 }
 
 /* Make your p tag a different color and italic */
 .main-footer p{
-  color:#cff;
+  color: #cff;
 }
